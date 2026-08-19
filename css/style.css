@@ -487,7 +487,10 @@ h1,h2,h3,h4{
   width:42px;height:42px;border-radius:50%;border:1.5px solid var(--line);
   display:flex;align-items:center;justify-content:center;transition:all .3s var(--ease);
 }
+.social-row a svg{display:block;}
 .social-row a:hover{background:var(--charcoal);border-color:var(--charcoal);color:var(--cream);}
+.site-footer .social-row a{border-color:rgba(251,246,239,.25);}
+.site-footer .social-row a:hover{background:var(--blush);border-color:var(--blush);color:var(--charcoal);}
 
 .form-card{background:var(--paper);border-radius:var(--radius-lg);padding:clamp(28px,4vw,42px);box-shadow:var(--shadow-soft);border:1px solid var(--line);}
 .form-row{display:grid;gap:20px;grid-template-columns:1fr;margin-bottom:20px;}
